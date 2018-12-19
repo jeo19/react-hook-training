@@ -1,6 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 const Counter = () => {
   const [value, setValue] = useState(0);
+  //   The function userEffect is loaded when component is re-rendered and mount.
+  useEffect(() => {
+    console.log("rendred:", value);
+  });
+  console.log("redering:", value);
   return (
     <div>
       <p>

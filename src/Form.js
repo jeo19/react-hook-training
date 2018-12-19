@@ -4,6 +4,8 @@ const Form = () => {
   const [description, setDescription] = useState("");
 
   const onSubmit = e => {
+    // PreventDefault is the function for prevent default behavior
+    // For example, preventDefault function prevents refresh when to be submitted on page.
     e.preventDefault();
     alert(`${name} (${description})`);
     setName("");
