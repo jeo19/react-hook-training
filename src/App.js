@@ -1,12 +1,13 @@
 import React, { Component } from "react";
-import Form from "./Form";
-import Counter from "./Counter";
-
+// import Form from "./Form";
+// import Counter from "./Counter";
+import Post from "./Post";
 class App extends Component {
   render() {
     return (
       <div>
-        <Counter />
+        <Post />
+        {/* <Counter /> */}
         {/* <Form /> */}
       </div>
     );
