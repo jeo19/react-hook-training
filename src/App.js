@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import Counter from "./Counter";
+import Form from "./Form";
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Counter />
+        <Form />
       </div>
     );
   }
